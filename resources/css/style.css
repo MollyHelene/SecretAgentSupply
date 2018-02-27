@@ -1,0 +1,148 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+  color: white;
+}
+
+/* -- HEADER SECTION-- */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 960px;
+  /* padding: ?px;  */
+  background: solid;
+  background-color: black;
+  top: 0px;
+}
+
+.logo-name {
+
+}
+
+.logo {
+
+}
+
+.sas-inc {
+
+}
+
+/* -- MAIN BANNER SECTION-- */
+
+.banner-container {
+
+}
+
+#new-arrival {
+
+}
+
+.flex-container {
+
+}
+
+.new-arrival-text {
+
+}
+
+/* -- NAVIGATION SECTION-- */
+
+#menu-container {
+
+}
+
+.menu-nav {
+
+}
+
+.nav-item {
+
+}
+
+/* -- PRODUCT SECTION-- */
+
+#store-container {
+
+}
+
+.flex-container-items {
+
+}
+
+.product-items {
+
+}
+
+.product-content {
+
+}
+
+.pen-image {
+
+}
+
+.pen-text {
+
+}
+
+.watch-image {
+
+}
+
+.watch-text {
+
+}
+
+.glasses-image {
+
+}
+
+.glasses-text {
+
+}
+
+/* -- LOCATION & HOURS SECTION--*/
+
+#location-hours-container {
+
+}
+
+.location-hours-items {
+
+}
+
+.location-content {
+
+}
+
+.location-hours-box {
+
+}
+
+.location-hours-text {
+
+}
+
+.numbers-text {
+
+}
+
+.hours-content {
+
+}
+
+.numbers-text {
+
+}
+
+/* -- Copyright Section --*/
+
+.copyright {
+
+}
