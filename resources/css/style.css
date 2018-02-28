@@ -6,9 +6,6 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   color: white;
-  @media only screen and (max-width 1024); {
-    font-size: 16px;
-  }
 }
 
 /* -- HEADER SECTION-- */
@@ -18,7 +15,7 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  padding-left: .05rem;
+  padding-left: 0;
   padding-right: 0;
   background: solid;
   background-color: black;
@@ -135,10 +132,9 @@ ul {
   padding: 2rem 5rem;
 }
 
-.product-image img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+img {
+  max-width: 100%;
+  max-height: auto;
   max-width: 8rem;
 }
 
@@ -161,7 +157,7 @@ ul {
 .info-content {
   display: flex;
   flex-direction: column;
-  width 35%;
+  width: 35%;
 }
 
 .info-content .info {
@@ -177,6 +173,73 @@ ul {
 
 /* -- Copyright Section --*/
 
-.copyright {
+footer {
+  padding: 5rem 0;
+  margin-top: 4rem;
+  background-color: black;
+  color: white;
+}
 
+/*--MEDIA QUERIES--*/
+
+/*-- max-1024 Tablet --*/
+@media screen and (max-width: 1024px){
+.normal-nav {
+  display: none;
+}
+.headline{
+  width: 22em;
+}
+.mobile-nav {
+  display: block;
+  text-align: center;
+}
+.glasses {
+  display: none !important;
+}
+.product-item {
+  min-width: 47%;
+}
+.product-image {
+  align-self: center;
+}
+}
+
+@media screen and (min-width: 1024px){
+  .mobile-nav {
+    display: none;
+  }
+}
+
+/*-- max-470 phone --*/
+@media only screen and (max-width: 470px){
+.headline {
+   width: 100%;
+    top: 20em;
+    margin: 0;
+}
+.h4 {
+  font-size:  .7rem;
+}
+.h1 {
+  font-size: .7rem;
+  color: red;
+}
+.watch {
+  display: none;
+}
+.product-item {
+  width: 90%;
+  margin: auto;
+}
+.location-hours-info {
+  flex-wrap: wrap;
+}
+.info-content {
+  width: 90%;
+  margin: 0.5rem auto;
+}
+footer {
+  text-align: center;
+}
 }
