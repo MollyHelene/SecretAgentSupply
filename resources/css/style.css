@@ -131,7 +131,7 @@ ul {
 
 .product-image {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 9rem;
   max-width: 30%;
@@ -146,11 +146,15 @@ img {
 
 .product-text {
   display: block;
-  padding: 0.5rem;
   background-color: black;
   text-align: center;
   color: white;
   margin-bottom: 0;
+  border-width: 100%;
+}
+span {
+  display: block;
+  padding: 0.5rem;
 }
 
 /* -- LOCATION & HOURS SECTION--*/
