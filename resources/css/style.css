@@ -1,3 +1,8 @@
+*{
+margin: 0;
+padding: 0;
+}
+
 html {
   font-size: 18px;
   vertical-align: baseline;
@@ -6,6 +11,7 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   color: white;
+  margin: 0px;
 }
 
 /* -- HEADER SECTION-- */
@@ -15,13 +21,13 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 0;
+  padding-top: 0.66rem;
   padding-right: 0;
+  padding-bottom: 0.66rem;
+  padding-left: 0.5rem;
   background: solid;
   background-color: black;
   top: 0px;
-  padding-top: 0.66rem;
-  padding-bottom: 0.66rem;
 }
 
 header img {
@@ -85,7 +91,7 @@ nav {
   align-items: center;
   max-width: 100%;
   margin: 0;
-  padding: .5rem;
+  padding: .25rem;
   background: solid;
   background-color: firebrick;
   color: white;
@@ -144,6 +150,7 @@ img {
   background-color: black;
   text-align: center;
   color: white;
+  margin-bottom: 0;
 }
 
 /* -- LOCATION & HOURS SECTION--*/
@@ -188,7 +195,7 @@ footer {
   display: none;
 }
 .headline{
-  width: 22em;
+  width: 27em;
 }
 .mobile-nav {
   display: block;
@@ -213,18 +220,27 @@ footer {
 
 /*-- max-470 phone --*/
 @media only screen and (max-width: 470px){
+.banner{
+  height: 15rem;
+}
 .headline {
-   width: 100%;
-    top: 20em;
-    margin: 0;
+  width: 100%;
+  height: 3.75rem;
+  top: 10em;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  margin-top: 0;
 }
 .h4 {
-  font-size:  .7rem;
+  padding-left: 0;
+  padding-top: .5rem;
+  font-size: .77rem;
 }
 .h1 {
-  font-size: .7rem;
-  color: red;
+  padding-left: 0;
+  font-size: 1rem;
 }
+
 .watch {
   display: none;
 }
