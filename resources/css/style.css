@@ -243,6 +243,7 @@ footer {
 .h1 {
   padding-left: 0;
   font-size: 1rem;
+  padding-bottom: 1rem;
 }
 
 .watch {
